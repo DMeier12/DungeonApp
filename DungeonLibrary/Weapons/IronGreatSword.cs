@@ -14,7 +14,7 @@ namespace DungeonLibrary.Weapons
         int BonusHitChance = 15;
         bool IsTwoHanded = true;
         WeaponType Type = WeaponType.Iron_Long_Sword;
-        public IronLongSword(int minDamage, int maxDamage, string name, int bonusHitChance,
+        public IronGreatSword(int minDamage, int maxDamage, string name, int bonusHitChance,
             bool isTwohanded, WeaponType type) : base(minDamage, maxDamage, name, bonusHitChance, isTwohanded, type) { }
     }
 }

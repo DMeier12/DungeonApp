@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DungeonLibrary.Weapons
 {
-    internal class Staff
+    internal class Staff : Weapon
     {
         int MaxDamage = 10;
         int MinDamage = 4;

@@ -103,25 +103,23 @@ namespace Dungeon
 
                 #region Monster Objects
 
-                Rabbit rabbit = new Rabbit("White Rabbit", 25, 25, 50, 20, 2, 8,
-                    "That's no ordinary rabbit! Look at the bones!", true);
+                DarkCultist cultist = new DarkCultist("Vardor", 40, 40, 95, 50, 20, 45, 
+                    "A tall darkrobed figure who's chanting the worlds of a forgotten language.", true);
 
-                Rabbit babyRabbit = new Rabbit();
 
-                Vampire vampire = new Vampire("Dracula", 25, 30, 70, 8, 1, 8, "The father of all undead.");
+                Bandit bandit = new Bandit("Solarin the Bandit Lord", 30,25, 70, 40,3, 9, "He's stolen all of the Elven Silver!");
 
-                Turtle turtle = new Turtle("Mikey", 17, 25, 50, 10, 1, 4,
-                    "He's no longer a teenager, but he's still a mutant turtle.", 3, 10);
+                Slime slime = new Slime("Rimuru", 17, 25, 50, 10, 1, 4,
+                    "You never know what'll happen when you face something that can eat everything.", 3, 10);
 
-                Dragon dragon = new Dragon("Smaug", 10, 20, 65, 20, 1, 15, "The last great dragon.", true);
+                Dragon dragon = new Dragon("Blackfang", 300, 275, 45, 20, 15, 25, "The last great dragon.", true);
 
-                Dragon babyDragon = new Dragon();
 
                 #endregion
 
                 #region Monster Selection
 
-                Monster[] monsters = { rabbit, turtle, vampire, dragon };
+                Monster[] monsters = { cultist, slime, bandit, dragon };
 
                 Random rand = new Random();
                 int randomNbr = rand.Next(monsters.Length);
@@ -260,14 +258,14 @@ namespace Dungeon
         {
             string[] rooms =
             {
-                "The room is dark and musty with the smell of lost souls.",
-                "You enter a pretty pink powder room and instantly get glitter on you.",
-                "You arrive in a room filled with chairs and a ticket stub machine... the dreaded DMV",
-                "You enter a quiet library... silence... nothing but silence....",
-                "As you enter the room, you realize you are standing on a platform surrounded by sharks",
-                "Oh my.... what is that smell? You appear to be standing in a compost pile",
-                "You enter a dark room and all you can hear is hair metal music blaring.... This is going to be bad!",
-                "The room looks just like the room you are sitting in right now... or does it?",
+                "You step into a valley, set down by a tree stump to rest for a moment, when suddenly you hear a roar...",
+                "You enter a strange smelling cavern... smells like.. lavender?",
+                "You arrive into a horde of gold and monsters!",
+                "You enter a dingy homestead, with creaking wood floors, mold and water damage, and a figure stands in the middle.",
+                "As you arrive through the hole in the wall, you fall straight onto a hard, rock floor",
+                "You see an empty room with nothing but a chest by the back wall, free loot! Oh no... you're glued to a mimic!",
+                "As you walk into the room, you hear DOOM 2016 music blaring.",
+                "As you're looking upon the beautiful Brevard water falls, you feel a sticky wet substance hit your shoulder.",
             };
             Random rand = new Random();
             int indexNbr = rand.Next(rooms.Length);

@@ -20,9 +20,8 @@ namespace DungeonLibrary
             if (roll <= (attacker.CalcHitChance() - defender.CalcArmor()))
             {
                 int damageDealt = attacker.CalcDamage();
-                //defender.Life -= damageDealt;
-                defender.ApplyDamage(damageDealt);
-                
+               if(attacker.isEmpowered) damageDealt += 5;
+                defender.ApplyDamage(damageDealt); 
                 Console.ForegroundColor = ConsoleColor.Red;
                 
                 Console.WriteLine("{0} hit {1} for {2} damage!",

@@ -59,8 +59,7 @@
             }
         }
 
-        
-
+        public bool isEmpowered { get; internal set; }
 
         public Character(string name, int hitChance, int armor, int maxLife, int life)
         {
