@@ -26,7 +26,7 @@ namespace DungeonLibrary
             Armor = 60;
             MinDamage = 10;
             MaxDamage = 25;
-            Description = "A brilliant black dragon, gaurding it's children with all it's streak..";
+            Description = "A brilliant black dragon, gaurding it's children with all it's strength. ";
             Enraged = false;
         }
         public override int CalcDamage()

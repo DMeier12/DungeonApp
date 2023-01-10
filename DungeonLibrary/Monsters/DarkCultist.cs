@@ -26,7 +26,7 @@ namespace DungeonLibrary
             Armor = 10;
             MinDamage = 10;
             MaxDamage = 12;
-            Description = "He's in the middle of casting a ritual, clask in a dark robe, hood up, changting an unknown to you language.";
+            Description = "He's in the middle of casting a ritual, clask in a dark robe, hood up, chanting an unknown to you language.";
             IsEmpowered = true;
         }
 
