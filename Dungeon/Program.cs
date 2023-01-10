@@ -105,7 +105,7 @@ namespace Dungeon
 
                 #region Monster Objects
 
-                DarkCultist cultist = new DarkCultist("Vardor", 40, 40, 95, 50, 20, 45, 
+                DarkCultist cultist = new DarkCultist("Vardor", 40, 40, 95, 50, 7, 15, 
                     "A tall darkrobed figure who's chanting the worlds of a forgotten language.", true);
 
 
