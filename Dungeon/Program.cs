@@ -1,17 +1,19 @@
 ﻿using DungeonLibrary;
 
+    
+
 namespace Dungeon
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             #region Title / Introduction
 
             Console.Title = "Journey through Brevard";
 
-            Console.WriteLine("Your journey begins...");
-
+            Console.WriteLine("Welcome to the ground continent of Brevard. \n A continent in the middle of a civil war, you're sent out to help clear some problem children.");
             #endregion
 
             int score = 0;
